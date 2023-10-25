@@ -1,0 +1,15 @@
+.shoe-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .shoe-form div {
+    margin-right: 20px;
+  }
+  
+  .shoe-form label {
+    min-width: 120px;
+    text-align: right;
+  }
+  

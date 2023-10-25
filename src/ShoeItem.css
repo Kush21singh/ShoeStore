@@ -1,0 +1,35 @@
+.brand-name {
+    padding-left: 10px /* Adjust the margin as needed */
+  }
+  
+  .description {
+    padding-left: 110px; /* Adjust the margin as needed */
+  }
+.sprice{
+    padding-left: 120px
+}
+
+.slarge {
+    padding-left: 140px
+}
+
+.smedium{
+    padding-left: 160px
+}
+
+.ssmall{
+    padding-left: 180px
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }
+  

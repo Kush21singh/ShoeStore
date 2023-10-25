@@ -1,0 +1,19 @@
+.description-cell {
+    padding-left: 100px; /* Adjust the padding as needed */
+  }
+  
+.price{
+    padding-left: 120px;
+}
+
+.large{
+    padding-left:  140px;
+}
+
+.medium{
+    padding-left: 160px;
+}
+
+.small{
+    padding-left: 180px;
+}

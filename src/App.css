@@ -1,0 +1,43 @@
+/* App.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; /* Background color for the header */
+  padding: 10px 20px;
+  color: white; /* Text color for the header */
+}
+
+h1 {
+  margin: 0; /* Remove margin to avoid spacing */
+}
+
+.cart-button {
+  background-color: #ff5722; /* Background color for the cart button */
+  color: white; /* Text color for the cart button */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: #ff8a4d; /* Background color when hovered */
+}
+.cart-button {
+  cursor: pointer;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.cart-dropdown.active {
+  display: block;
+}
